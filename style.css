@@ -2,13 +2,22 @@
     --color-background: #1A2037 ;
     --color-btn: #2F2E41;
     --color-btn-trasiction: #3950ac;
+    --color-secundary: #E6E6E6;
+}
+header{
+    height: 153px;
 }
 
 main{
     background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
 }
 .nav{
-    background-color: #E6E6E6;
+    background-color: var(--color-secundary);
     justify-content:space-evenly;
     height: 153px;
     margin-bottom: 50px;
@@ -35,15 +44,26 @@ main{
 .section{
     display: flex ;
     align-items: center;
-    gap: 0px;
+    justify-content: center;
+    overflow: hidden;
+}
+.home{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    overflow: hidden;
 }
 .side-image{
     max-height: fit-content;
 }
+.imagem-side{
+    height: 500px;
+}
 .text-area{
     color: white;
-    margin-left: 30px;
     flex-wrap: wrap;
+    width:500px ;
 }
 .btn-primary{
     display:flex ;
@@ -62,9 +82,37 @@ main{
     background-color: var(--color-btn-trasiction);
 }
 
-.text-area >p{
+.text-home{
     font-size: 36px;
 }
 .title{
     font-size: 120px
+}
+.about{
+    background-color: var(--color-secundary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100vh;
+    
+}
+.about-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.title-about{
+    color: black;
+    font-size: 48px;
+}
+.text-about{
+    color: black;
+    font-size: 20px;
+}
+.imagem-about{
+    height: 400px;
 }
