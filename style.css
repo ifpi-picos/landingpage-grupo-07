@@ -6,6 +6,9 @@
     font-family: 'Inter', sans-serif;
     latter-spacing: 1px;
 }
+body{
+    height: fit-content;
+}
 :root{
     --color-background: #1A2037 ;
     --color-btn: #2F2E41;
@@ -16,6 +19,8 @@
 }
 header{
     height: 153px;
+    width: 100%;
+
 }
 
 main{
@@ -50,12 +55,16 @@ main{
     gap: 5px;
     display: flex;
     flex-direction: row;
+    
 }
 .section{
     display: flex ;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    height: 100vh;
+    width: 90vw;
 }
 .home{
     display: flex ;
@@ -63,9 +72,14 @@ main{
     justify-content: center;
     width: fit-content;
     overflow: hidden;
+    height: 100vh;
+    width: 90%;
+
 }
 .side-image{
     max-height: fit-content;
+
+    overflow: hidden;
 }
 .imagem-side{
     height: 500px;
@@ -121,7 +135,7 @@ main{
 }
 .text-about{
     color: black;
-    font-size: 20px;
+    font-size: 17px;
 }
 .imagem-about{
     height: 400px;
