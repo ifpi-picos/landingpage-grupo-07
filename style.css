@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    latter-spacing: 1px;
+}
 :root{
     --color-background: #1A2037 ;
     --color-btn: #2F2E41;
     --color-btn-trasiction: #3950ac;
     --color-secundary: #E6E6E6;
+    --color-footer: #E0E2E9;
+    --color-txt: #000;
 }
 header{
     height: 153px;
@@ -27,7 +37,7 @@ main{
     align-items: center;
 }
 .logo{
-    width: 300px;
+    width: 125px;
 }
 .nav-link{
     display: flex;
@@ -116,3 +126,37 @@ main{
 .imagem-about{
     height: 400px;
 }
+
+footer{
+    width: 100%;
+    color: var(--color-secundary);
+}
+
+#footer_content{
+    background-color: var(--color-txt);
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+
+}
+
+.imagem-footerlogo{
+    width: 100px;
+}
+
+.imagem-footerifpi{
+    width: 150px;
+}
+
+.imagem-footerufpi{
+    width: 100px;
+}
+.imagem-footerfapei{
+    width: 80px;
+}
+
+
