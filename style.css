@@ -145,6 +145,14 @@ main:nth-child(2){
     height: 400px;
 }
 
+.footer_social_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
 footer{
     width: 100%;
     color: var(--color-secundary);
@@ -152,39 +160,44 @@ footer{
 
 .footer_content{
     background-color: var(--color-secundary);
-    margin-top: 180px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
 }
 
-.footer_contacts h1{
-    margin-bottom: 0.75rem;
-
-}
-.footer_contacts{
-    align-items: center;
-    gap: 90px;
+.footer-parceiros{
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color:#000;
+    margin-top: 1px;
+
 }
 
-.footer-span{
-    color: #000;
-    font-weight: 900;
+#carouselExample{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.imagem-footerlogo{
+
+.logo-footer{
     width: 100px;
+    margin-bottom: 50px;
 }
 
-.imagem-footerifpi{
-    width: 150px;
-}
-
-.imagem-footerufpi{
-    width: 100px;
-}
-.imagem-footerfapei{
-    width: 80px;
+.footer_social_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
 }
 
 
