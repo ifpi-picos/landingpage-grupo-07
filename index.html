@@ -25,14 +25,15 @@
                 <span><img src="./assets/logo.png" alt="logo" class="logo"></span>
             </div>
             <div class="nav-button">
-                <a class="nav-link" href="#">Home</a>
-                <a class="nav-link" href="#">Sobre</a>
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#sobre">Sobre</a>
+                <a class="nav-link" href="#patrocinadores">Patrocinadores</a>
             </div>
         </nav>
     </header>
     <main class="main">
         <section class="section">
-            <div class="home">
+            <div class="home" id="home">
                 <div class="text-area">
                     <span class="title">Feira Livre</span>
                     <p class="text-home">Displonibilizando materiais para você colega professor</p>
@@ -46,7 +47,7 @@
 
         </section>
         <div class="about">
-            <div class="about-area">
+            <div class="about-area" id="sobre">
                 <div class="imagem-about">
                     <img src="./assets/side_about.svg" alt="imagem lateral de professor" class="imagem-side">
                 </div>
@@ -64,48 +65,56 @@
                 </div>
             </div>
         </div>
-        </div>
         <footer>
-            <div class="footer_content">
-                <div class="footer_contacts">
-                    <p class="footer-parceiros">Parceiros</p>
-                    <img src="./assets/logo.png" alt="logo-footer" class="logo-footer">
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./assets/ifpi_logo-removebg-preview 1.png" class="d-block w-100" alt="ifpi">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./assets/fapepi_logo-removebg-preview 1.png" class="d-block w-50" alt="fapepi">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./assets/ufpi_logo 1.png" class="d-block w-100" alt="ufpi">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div class="footer_social_media">
-                        <a href="#" class="footer_link" id="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-    
-                            <a href="#" class="footer_link" id="facebook">
-                                <i class="fa-brands fa-facebook"></i>
-    
-                                <a href="#" class="footer_link" id="whatsapp">
-                                    <i class="fa-brands fa-whatsapp"></i>
-    
-                                    <a href="#" class="footer_link" id="twitter">
-                                        <i class="fa-brands fa-twitter"></i>
-                      </div>
+            <section>
+                <div class="patrocinadores" id="patrocinadores">
+
                 </div>
-            </div>
+                <div class="footer_content">
+                    <div class="footer_contacts">
+                        <p class="footer-parceiros">Parceiros</p>
+                        <img src="./assets/logo.png" alt="logo-footer" class="logo-footer">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/ifpi_logo-removebg-preview 1.png" class="d-block w-100"
+                                        alt="ifpi">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/fapepi_logo-removebg-preview 1.png" class="d-block w-50"
+                                        alt="fapepi">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/ufpi_logo 1.png" class="d-block w-100" alt="ufpi">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="footer_social_media">
+                            <a href="#" class="footer_link" id="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+
+                                <a href="#" class="footer_link" id="facebook">
+                                    <i class="fa-brands fa-facebook"></i>
+
+                                    <a href="#" class="footer_link" id="whatsapp">
+                                        <i class="fa-brands fa-whatsapp"></i>
+
+                                        <a href="#" class="footer_link" id="twitter">
+                                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </footer>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
