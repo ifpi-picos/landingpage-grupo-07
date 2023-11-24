@@ -176,7 +176,7 @@ footer{
 
 }
 
-#carouselExample{
+/* #carouselExample{
     width: 200px;
     height: 200px;
     display: flex;
@@ -184,7 +184,7 @@ footer{
     justify-content: center;
     margin: 0 auto;
     margin-top: 50px;
-}
+} */
 
 
 .logo-footer{
@@ -198,6 +198,38 @@ footer{
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.footer_social_media i:hover {
+    transition: 0.3s;
+    color: black;
+}
 
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_content #img-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.footer_content .img #img-2 {
+    width: 165px;
+    height: 130px;
+}
+
+.footer_content .img #img-3 {
+    width: 60px;
+    height: 120px;
+}
+
+.footer_content .img #img-4 {
+    width: 100px;
+    height: 100px;
+}
