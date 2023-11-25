@@ -35,11 +35,18 @@ main{
 main:nth-child(2){
     gap: 0px;
 }
+.navbar-expand-lg{
+    display: none ;
+}
 .nav{
     background-color: var(--color-secundary);
     justify-content:space-evenly;
     height: 153px;
     margin-bottom: 50px;
+}
+.navbarr{
+    display: flex;
+    align-items: center;
 }
 .logo-container{
     display: flex;
@@ -89,7 +96,7 @@ main:nth-child(2){
 }
 .text-area{
     color: white;
-    flex-wrap: wrap;
+
     width:500px ;
 }
 .btn-primary{
@@ -241,4 +248,100 @@ footer{
 .partner-img-fapepi{
     width: 100px;
  height: 130px;
+}
+
+@media(max-width:913px){
+    .text-about{
+        font-size: 15px;
+    }
+    .imagem-side{
+        width: 350px;
+    }
+    .imagem-about{
+        height: fit-content;
+    }
+    .title{
+        font-size: 90px
+    }
+}
+
+@media(max-width:796px){
+    .title{
+        font-size: 80px
+    }
+    .text-home{
+        font-size: 30px;
+    }
+    .text-about{
+        font-size: 13px;
+    }
+    .imagem-side{
+        width: 320px;
+    }
+}
+@media(max-width: 761px){
+    .title-about{
+        font-size: 35px;
+    }
+}
+@media(max-width: 655px){
+    .imagem-side{
+        display: none;
+    }
+    .participantes{
+        font-size: 35px;
+    }
+    .text-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+@media(max-width: 451px){
+    .participantes{
+        font-size: 25px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .text-about{
+        font-size: 9px;
+    }
+    .about{
+        height: 70vh;
+        width: 100%;
+    }
+    .navbar-expand-lg{
+        display: flex ;
+    }
+    .navbarr{
+        display:none ;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .navbar-nav{
+    }
+    .navbar-collapse{
+       height: 90px;
+       background-color: var(--color-secundary);
+       height: max-content;
+       margin-bottom: 10px;
+    }
+    .logo-span{
+        display: none;
+    }
+        .navbar-expand-lg{
+            width: 100%;
+        } 
+}
+@media(max-width: 395px){
+    .carrosel-container{
+        width: 100%;
+    }
+    .d-block{
+        height: 300px;
+        width: 200px;
+    }
 }
